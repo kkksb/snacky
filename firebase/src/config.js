@@ -1,4 +1,5 @@
 import firebase from 'firebase/app' //node_modulesからコアとなるfirebaseのパッケージをimportする、firebaseを使うなら必ずimportする必要がある
+
 import 'firebase/firestore' // firestoreを使いたいのでimportする
 import 'firebase/auth'
 import 'firebase/storage'
