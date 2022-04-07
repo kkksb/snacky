@@ -1,19 +1,15 @@
-import { createApp } from 'vue'
+// The Vue build version to load with the `import` command
+// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
-import App from './App.vue'
-import vuetify from './plugins/vuetify'
-import { loadFonts } from './plugins/webfontloader'
-import router from './router' //追加
-import store from './store'
+import App from './App'
+import router from './router'
 
+Vue.config.productionTip = false
+
+/* eslint-disable no-new */
 new Vue({
-  router, //追加
-  store,
-  render: h => h(App)
-}).$mount('#app')
-
-loadFonts()
-
-createApp(App)
-  .use(vuetify)
-  .mount('#app')
+  el: '#app',
+  router,
+  components: { App },
+  template: '<App/>'
+})
