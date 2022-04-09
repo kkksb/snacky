@@ -1,22 +1,20 @@
 <template>
-  <v-app>
-    <v-navigation-drawer>
-      <v-list
-        dense
-        nav
+  <v-navigation-drawer clipped app>
+    <v-list
+      dense
+      nav
+    >
+      <v-list-item
+        v-for="item in items"
+        :key="item.title"
+        link
       >
-        <v-list-item
-          v-for="item in items"
-          :key="item.title"
-          link
-        >
-          <v-list-item-content>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
-  </v-app>
+        <v-list-item-content>
+          <v-list-item-title>{{ item.title }}</v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
+    </v-list>
+  </v-navigation-drawer>
 </template>
 
 <script>
