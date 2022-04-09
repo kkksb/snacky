@@ -37,5 +37,6 @@ export default {
 <style>
 #map {
     height: 1000px;
+    z-index: 0;
 }
 </style>
