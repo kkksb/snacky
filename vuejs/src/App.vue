@@ -1,9 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app clipped-left class="pr-1">
-    <!-- -->
-    </v-app-bar>
-
+    <snacky-header></snacky-header>
     <side-menu></side-menu>
 
     <!-- アプリケーションのコンポーネントに基づいてコンテンツのサイズを決定 -->
@@ -25,11 +22,13 @@
 
 <script>
 import SideMenu from '@/components/organisms/SideMenu'
+import SnackyHeader from '@/components/organisms/Header'
 
 export default {
   name: 'App',
   components: {
-    SideMenu
+    SideMenu,
+    SnackyHeader
   }
 }
 </script>
