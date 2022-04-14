@@ -1,33 +1,31 @@
 <template>
   <v-navigation-drawer clipped app>
-    <v-list
-      dense
-      nav
-    >
-      <v-list-item
-        v-for="item in items"
-        :key="item.title"
-        link
-      >
-        <v-list-item-content>
-          <v-list-item-title>{{ item.title }}</v-list-item-title>
-        </v-list-item-content>
-      </v-list-item>
-    </v-list>
+    <v-row>
+      <v-col class="nav-grid-area">
+        <menu-list></menu-list>
+        <setting-in-menu></setting-in-menu>
+      </v-col>
+    </v-row>
   </v-navigation-drawer>
 </template>
 
 <script>
+import MenuList from '@/components/molecules/MenuList.vue'
+import SettingInMenu from '@/components/molecules/SettingInMenu.vue'
+
 export default {
-  data () {
-    return {
-      items: [
-        { title: 'Home' },
-        { title: 'About' },
-        { title: 'オススメのお店' }
-      ],
-      right: null
-    }
+  components: {
+    MenuList,
+    SettingInMenu
   }
 }
 </script>
+
+<style>
+.nav-grid-area {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 70% 30%;
+  grid-template-columns: 100%;
+}
+</style>

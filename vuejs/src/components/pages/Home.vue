@@ -4,8 +4,8 @@
       <snack-map></snack-map>
     </v-col>
     <v-col cols="12" md="3" class="right-menu">
-      <user-comment-list></user-comment-list>
-      <shop-detail></shop-detail>
+      <user-comment-list class="top-area"></user-comment-list>
+      <shop-detail class="bottom-area"></shop-detail>
     </v-col>
   </v-row>
 </template>
@@ -25,4 +25,20 @@ export default {
 </script>
 
 <style>
+.right-menu {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 70% 30%;
+  grid-template-columns: 100%;
+}
+
+.top-area {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.bottom-area {
+  grid-row: 2;
+  grid-column: 1;
+}
 </style>
