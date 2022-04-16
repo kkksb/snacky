@@ -1,13 +1,15 @@
 <template>
-  <v-row>
-    <v-col cols="12" md="9">
-      <snack-map></snack-map>
-    </v-col>
-    <v-col cols="12" md="3" class="right-menu">
-      <user-comment-list class="top-area"></user-comment-list>
-      <shop-detail class="bottom-area"></shop-detail>
-    </v-col>
-  </v-row>
+  <v-main class="pt-0">
+    <v-row>
+      <v-col cols="12" md="9">
+        <snack-map></snack-map>
+      </v-col>
+      <v-col cols="12" md="3">
+        <user-comment-list class="top-area"></user-comment-list>
+        <shop-detail class="bottom-area"></shop-detail>
+      </v-col>
+    </v-row>
+  </v-main>
 </template>
 
 <script>
@@ -41,4 +43,5 @@ export default {
   grid-row: 2;
   grid-column: 1;
 }
+
 </style>

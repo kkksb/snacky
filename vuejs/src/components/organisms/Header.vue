@@ -1,5 +1,5 @@
 <template>
-    <v-app-bar app clipped-left class="pr-1">
+    <v-app-bar app clipped-left>
         <v-row>
             <v-col cols="12" md="3" class="header-title">
                 <h1>Snacky</h1>

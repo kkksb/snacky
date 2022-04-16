@@ -1,21 +1,12 @@
 <template>
   <v-app>
-    <snacky-header></snacky-header>
     <side-menu></side-menu>
+    <snacky-header></snacky-header>
 
-    <!-- アプリケーションのコンポーネントに基づいてコンテンツのサイズを決定 -->
-    <v-main class="pt-0" fixed>
-
-      <!-- アプリケーションに適切なgutterを提供 -->
-      <v-container fluid>
-
-        <!-- vue-routerを使用する場合 -->
-        <router-view></router-view>
-      </v-container>
-    </v-main>
+    <router-view></router-view>
 
     <v-footer app>
-      <!-- -->
+      Snacky
     </v-footer>
   </v-app>
 </template>
@@ -41,5 +32,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.main {
+  margin: 10px 10px 40px 10px
 }
 </style>

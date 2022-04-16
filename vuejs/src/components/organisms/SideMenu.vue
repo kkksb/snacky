@@ -1,7 +1,7 @@
 <template>
   <v-navigation-drawer clipped app>
     <v-row>
-      <v-col class="nav-grid-area">
+      <v-col>
         <menu-list></menu-list>
         <setting-in-menu></setting-in-menu>
       </v-col>
