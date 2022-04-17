@@ -9,6 +9,7 @@
         <shop-detail class="bottom-area"></shop-detail>
       </v-col>
     </v-row>
+    <submit-dialog v-bind:isShowDialog="isShowDialog"></submit-dialog>
   </v-main>
 </template>
 
@@ -16,13 +17,18 @@
 import SnackMap from '@/components/organisms/Map'
 import UserCommentList from '@/components/molecules/UserCommentList'
 import ShopDetail from '@/components/molecules/ShopDetail'
+import SubmitDialog from '@/components/organisms/SubmitDialog'
 
 export default {
   components: {
     SnackMap,
     UserCommentList,
-    ShopDetail
-  }
+    ShopDetail,
+    SubmitDialog
+  },
+  data: () => ({
+    isShowDialog: false
+  })
 }
 </script>
 
