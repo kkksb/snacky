@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  snacky-front:
+    container_name: snacky-front
+    image: nginx:1.17
+    build:
+        context: ./vuejs
+    volumes:
+        - ./vuejs:/app
+        - ./app/node_modules
+    ports:
+        - "8080:80"
