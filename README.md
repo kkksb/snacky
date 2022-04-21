@@ -29,3 +29,10 @@ http://localhost:8080/
 から確認してみてください。
 
 buildオプションは初回時のみで問題ないです。
+
+### firebase
+
+```
+$ npm install
+$ firebase login
+```
