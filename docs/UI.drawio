@@ -1,4 +1,32 @@
 <mxfile host="65bd71144e">
+    <diagram name="アカウント作成" id="0M0AmEJ6M3llyKKPFRjI">
+        <mxGraphModel dx="1118" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="4cbIL4HKv8UTfTTaKCeY-0"/>
+                <mxCell id="4cbIL4HKv8UTfTTaKCeY-1" parent="4cbIL4HKv8UTfTTaKCeY-0"/>
+                <mxCell id="4cbIL4HKv8UTfTTaKCeY-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" parent="4cbIL4HKv8UTfTTaKCeY-1" vertex="1">
+                    <mxGeometry x="185" y="100" width="510" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="RcVrJcLwqSmrsWDbyLCh-0" value="Snacy" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#000000;fontSize=20;" parent="4cbIL4HKv8UTfTTaKCeY-1" vertex="1">
+                    <mxGeometry x="410" y="110" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RcVrJcLwqSmrsWDbyLCh-3" value="ユーザ名" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fillColor=none;strokeColor=#999999;align=left;spacing=15;fontSize=14;fontColor=#6C767D;" parent="4cbIL4HKv8UTfTTaKCeY-1" vertex="1">
+                    <mxGeometry width="319" height="40" relative="1" as="geometry">
+                        <mxPoint x="280" y="200" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="RcVrJcLwqSmrsWDbyLCh-6" value="メールアドレス" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fillColor=none;strokeColor=#999999;align=left;spacing=15;fontSize=14;fontColor=#6C767D;" parent="4cbIL4HKv8UTfTTaKCeY-1" vertex="1">
+                    <mxGeometry x="280.5" y="260" width="319" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="RcVrJcLwqSmrsWDbyLCh-8" value="Googleアカウントでログイン" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="4cbIL4HKv8UTfTTaKCeY-1" vertex="1">
+                    <mxGeometry x="280.5" y="410" width="319.5" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="RcVrJcLwqSmrsWDbyLCh-9" value="Facebookでログイン" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="4cbIL4HKv8UTfTTaKCeY-1" vertex="1">
+                    <mxGeometry x="280.5" y="490" width="319.5" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
     <diagram id="LqUMUa356cnGMRlqJOWc" name="メイン画面(PC版)">
         <mxGraphModel dx="1118" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
@@ -297,34 +325,6 @@
                 </mxCell>
                 <mxCell id="QWt4AWmc45GhMUn8IJOS-52" value="送信" style="rounded=1;fillColor=#0057D8;strokeColor=none;html=1;fontColor=#ffffff;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" parent="QWt4AWmc45GhMUn8IJOS-1" vertex="1">
                     <mxGeometry x="150" y="670" width="86" height="33" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
-    <diagram name="アカウント作成" id="0M0AmEJ6M3llyKKPFRjI">
-        <mxGraphModel dx="1118" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-            <root>
-                <mxCell id="4cbIL4HKv8UTfTTaKCeY-0"/>
-                <mxCell id="4cbIL4HKv8UTfTTaKCeY-1" parent="4cbIL4HKv8UTfTTaKCeY-0"/>
-                <mxCell id="4cbIL4HKv8UTfTTaKCeY-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="4cbIL4HKv8UTfTTaKCeY-1">
-                    <mxGeometry x="185" y="100" width="510" height="510" as="geometry"/>
-                </mxCell>
-                <mxCell id="RcVrJcLwqSmrsWDbyLCh-0" value="Snacy" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#000000;fontSize=20;" vertex="1" parent="4cbIL4HKv8UTfTTaKCeY-1">
-                    <mxGeometry x="410" y="110" width="60" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="RcVrJcLwqSmrsWDbyLCh-3" value="ユーザ名" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fillColor=none;strokeColor=#999999;align=left;spacing=15;fontSize=14;fontColor=#6C767D;" vertex="1" parent="4cbIL4HKv8UTfTTaKCeY-1">
-                    <mxGeometry width="319" height="40" relative="1" as="geometry">
-                        <mxPoint x="280" y="200" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="RcVrJcLwqSmrsWDbyLCh-6" value="メールアドレス" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fillColor=none;strokeColor=#999999;align=left;spacing=15;fontSize=14;fontColor=#6C767D;" vertex="1" parent="4cbIL4HKv8UTfTTaKCeY-1">
-                    <mxGeometry x="280.5" y="260" width="319" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="RcVrJcLwqSmrsWDbyLCh-8" value="Googleアカウントでログイン" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="4cbIL4HKv8UTfTTaKCeY-1">
-                    <mxGeometry x="280.5" y="410" width="319.5" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="RcVrJcLwqSmrsWDbyLCh-9" value="Facebookでログイン" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="4cbIL4HKv8UTfTTaKCeY-1">
-                    <mxGeometry x="280.5" y="490" width="319.5" height="50" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
