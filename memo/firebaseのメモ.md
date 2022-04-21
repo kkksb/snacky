@@ -7,6 +7,7 @@ Firebaseで作るWebアプリケーション - APIを作成する - Qiita https:
 ## firebaseでAPI作成
 
 アプリから関数を呼び出す  |  Firebase Documentation https://firebase.google.com/docs/functions/callable?hl=ja
+HTTP リクエスト経由で関数を呼び出す  |  Firebase Documentation https://firebase.google.com/docs/functions/http-events?hl=ja
 
 ## Webアプリのデプロイ
 
