@@ -36,3 +36,9 @@ buildオプションは初回時のみで問題ないです。
 $ npm install
 $ firebase login
 ```
+
+#### 止める場合
+
+```
+$ firebase hosting:disable
+```
