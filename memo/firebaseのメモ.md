@@ -7,11 +7,21 @@ Firebaseで作るWebアプリケーション - APIを作成する - Qiita https:
 ## firebaseでAPI作成
 
 アプリから関数を呼び出す  |  Firebase Documentation https://firebase.google.com/docs/functions/callable?hl=ja
+
 HTTP リクエスト経由で関数を呼び出す  |  Firebase Documentation https://firebase.google.com/docs/functions/http-events?hl=ja
+
+### 実際に呼び出す
+
+Vue.jsでFirebase Functionsを使う - Qiita https://qiita.com/cslf-fh/items/a384c00b78d1086b5b81
 
 ## Webアプリのデプロイ
 
 VueアプリをFirebaseに爆速デプロイ! - Qiita https://qiita.com/kmtym1998/items/118090f83902371c3715
+
+### 部分デプロイ
+
+* APIサーバのみ
+関数のデプロイとランタイム オプションを管理する  |  Firebase Documentation https://firebase.google.com/docs/functions/manage-functions
 
 ## トラブルシューティング
 
@@ -27,3 +37,9 @@ vuejs
 firebase
 ┗firebase.json
 という構図はいけないようだ。
+
+* CORSポリシー
+Vue.jsでFirebase Functionsを使う - Qiita https://qiita.com/cslf-fh/items/a384c00b78d1086b5b81
+
+functionのリージョンを合わせること、関数名を間違えないこと。
+corsは要調査。

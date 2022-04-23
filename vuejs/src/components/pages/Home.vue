@@ -2,6 +2,7 @@
   <v-main class="pt-0">
     <v-row>
       <v-col cols="12" md="9">
+        <v-btn @click="onCall">{{ message }}</v-btn>
         <snack-map></snack-map>
       </v-col>
       <v-col cols="12" md="3">
@@ -18,6 +19,8 @@ import SnackMap from '@/components/organisms/Map'
 import UserCommentList from '@/components/molecules/UserCommentList'
 import ShopDetail from '@/components/molecules/ShopDetail'
 import SubmitDialog from '@/components/organisms/SubmitDialog'
+import { functions } from '@/plugins/firebase'
+import { httpsCallable } from 'firebase/functions'
 
 export default {
   components: {
@@ -27,8 +30,16 @@ export default {
     SubmitDialog
   },
   data: () => ({
-    isShowDialog: false
-  })
+    isShowDialog: false,
+    message: ''
+  }),
+  methods: {
+    async onCall () {
+      let res = httpsCallable(functions, 'helloWorld2')
+      const data = await res()
+      this.message = data.data
+    }
+  }
 }
 </script>
 

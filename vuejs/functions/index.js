@@ -8,6 +8,7 @@ const functions = require("firebase-functions");
 //   response.send("Hello from Firebase!");
 // });
 
-exports.helloWorld2 = functions.https.onCall((request, response) => {
-  response.send("Hello from Firebase!");
+exports.helloWorld2 =
+functions.region("us-central1").https.onCall((data, context) => {
+  return "Hello firebase";
 });
