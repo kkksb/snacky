@@ -37,6 +37,12 @@ $ npm install
 $ firebase login
 ```
 
+### APIサーバのみ起動
+
+'''
+$ firebase deploy --only functions
+'''
+
 #### 止める場合
 
 ```
