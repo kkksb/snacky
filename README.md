@@ -18,6 +18,12 @@ $ npm run dev
 
 nodeがない場合は適宜インストールしてください。
 
+Linterでエラーが出ている場合は、
+```
+$ npm run fixlint
+```
+を試してみてください。
+
 ### コンテナ起動
 
 ```
@@ -40,8 +46,17 @@ $ firebase login
 ### APIサーバのみ起動
 
 '''
+$ cd functions
+$ npm install
 $ firebase deploy --only functions
 '''
+
+エラーが出る場合は、
+```
+$ cd functions
+$ npm run fixlint
+```
+を試してみてください
 
 #### 止める場合
 
