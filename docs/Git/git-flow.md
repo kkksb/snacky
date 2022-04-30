@@ -26,3 +26,7 @@ flowchart TD
 
     Issueベースでdevelopmentから切る。
     サブタイトルに、修正内容を記載する。
+
+## PRのマージ先
+
+developmentブランチに向けてPRを出す。
