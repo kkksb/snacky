@@ -5,4 +5,5 @@
 ```
 $ npm install
 $ swagger project start
+$ swagger project edit
 ```

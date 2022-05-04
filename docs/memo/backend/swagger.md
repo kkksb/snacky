@@ -19,6 +19,10 @@ swagger-node/quick-start.md at master · swagger-api/swagger-node https://github
 expressを利用する
 swagger-node を使って API ドキュメントとスタブサーバーを作成する | DevelopersIO https://dev.classmethod.jp/articles/swagger-node-overview/
 
+## 使えそうなツール
+
+VSCodeでSwaggerViewerを導入する https://zenn.dev/nekoniki/articles/acd946cc349d1e
+
 ## トラブルシューティング
 
 Error: Cannot find module swagger_router · Issue #586 · swagger-api/swagger-node https://github.com/swagger-api/swagger-node/issues/586

@@ -1,7 +1,7 @@
 swagger: "2.0"
 info:
   version: "0.0.1"
-  title: Hello World App
+  title: snacy api
 # during dev, should point to your local machine
 host: localhost:10010
 # basePath prefixes all resource paths 
@@ -18,11 +18,11 @@ consumes:
 produces:
   - application/json
 paths:
-  /hello:
+  /api/snack_list:
     # binds a127 app logic to a route
     x-swagger-router-controller: hello_world
     get:
-      description: Returns 'Hello' to the caller
+      description: ホーム画面に表示するお菓子のリスト
       # used as the method name of the controller
       operationId: hello
       parameters:
@@ -36,7 +36,7 @@ paths:
           description: Success
           schema:
             # a pointer to a definition
-            $ref: "#/definitions/HelloWorldResponse"
+            $ref: "#/definitions/snack_list"
         # responses may fall through to errors
         default:
           description: Error
@@ -46,15 +46,34 @@ paths:
     x-swagger-pipe: swagger_raw
 # complex objects have schema definitions
 definitions:
-  HelloWorldResponse:
+  snack_list:
     required:
-      - message
+      - status
+      - list
     properties:
-      message:
+      status:
         type: string
+        example: 'success'
+      list:
+        type: array
+        items: 
+          example:
+            - id: 1
+              snack_name: '若草'
+              comment: 'もちもちの触感が癖になる！'
+              image: "base64"
+              evaluation: 3
+              info: 'https://example.com'
+            - id: 2 
+              snack_name: '柏餅'
+              comment: '結構おいしい'
+              image: "base64"
+              evaluation: 5 
+              info: 'https://example.com'
   ErrorResponse:
     required:
       - message
     properties:
       message:
         type: string
+        example: error
